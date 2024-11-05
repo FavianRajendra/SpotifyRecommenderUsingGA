@@ -247,4 +247,3 @@ if st.checkbox("Show number of songs available per genre"):
     for genre in available_genres:
         st.write(f"{genre}: {genre_counts.get(genre, 0)} songs")
         
-st.markdown("Made with ❤️ by ian ✨")
